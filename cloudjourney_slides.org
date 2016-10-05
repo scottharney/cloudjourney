@@ -1,0 +1,367 @@
+#+TITLE: Starting your IT organization's journey to Cloud IT
+#+AUTHOR: Scott Harney
+#+OPTIONS: toc:nil num:nil reveal-title-slide:nil
+#+OPTIONS: reveal-single-file:t
+#+REVEAL_HLEVEL: 1
+#+REVEAL_THEME: blood
+#+REVEAL_MAX_SCALE: 10
+
+* Starting your IT organization's journey to Cloud IT
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+Scott Harney <sharney@virtual.com>
+
+10/25/2016
+
+* Intro
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+BEGIN_NOTES
+Also opening questions. Who is using public cloud today? Who has ms azure
+credits? Are you using them? Who has an initiative to move to a public private
+or hybrid cloud model? Open stack anyone?
+
+Do I do a bio slide here? and a who is ASG slide?
+#+END_NOTES
+
+** Who am I?
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+[[https://cdn-images-1.medium.com/max/600/1*snTXFElFuQLSFDnvZKJ6IA.png]]
+
+** Who am I?
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+ 
+#+ATTR_REVEAL: :frag (appear)
+- Consulting Engineer for ASG
+  - provide pre-sales support
+  - also post-sales delivery PS and consulting
+- previous practitioner experience in customer roles
+  - network engineer
+  - unix/linux engineer
+  - storage and backup
+- live and work exclusively in LA
+
+** Who Is ASG?
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+- Leading National systems integrator since 1981
+- headquarters in Denver, CO. has maintained a prescence in LA throughout
+  company history
+- Provides Consulting services supporting the business of IT
+
+[[http://www.asgconsultingservices.com]]
+ 
+[[https://www.virtual.com]]
+
+* how ASG views IT 
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left :width 40% :height 40%
+[[./5points.png]]
+
+#+HTML: <br><br><br><br>
+#+ATTR_HTML: :align right 
+   IT Transformation is not just about technology
+#+ATTR_REVEAL: :frag appear
+It's always about the business
+
+* But How?
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+What ways do IT functions support the business
+
+** 3 ways
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_REVEAL: :frag (appear)
+- help make $
+- save $
+- prevent loss of $
+  
+#+ATTR_HTML: :align left
+#+ATTR_REVEAL: :frag (grow)
+The problem is it spends 90% of its time on the latter two bullets. Traditional
+IT is focused on safety and saving money on scarce IT resources
+
+* cloud IT is about going faster 
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+
+#+ATTR_REVEAL: :frag (appear)
+- faster is a competitive advantage for many business 
+- ability to pivot
+- flexibility to experiment
+- BUs can buy what they need and use immediately  
+- still can be just as safe if not more so 
+
+* cloud is not a technology 
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left
+Well, not entirely anyway. It's also very much about people and process. It is a
+different consumption model for IT resources. It is much more aligned with
+applications than traditional IT which may not have deep awareness of business
+apps running on infrastructure 
+
+#+BEGIN_NOTES
+As an infrastructure admin I often only knew apps by their names with little
+understanding of their function, use or role within the business.
+#+END_NOTES
+
+* cloud economics are different
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_REVEAL: :frag (appear)
+- rent vs buy for public 
+- abundant resources vs limited 
+- does not reward traditional it app architectures
+- can be hard/pricey to move data out of cloud or across vendors 
+
+  
+#+BEGIN_NOTES
+you are probably not going to save $ vs Colo for traditional it)
+
+lesson : it's your data. It really matters. Should I archive to the azure or
+glacier because it's cheap or "free"? Answer : maybe...
+#+END_NOTES
+
+* cloud app architectures are different 
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_REVEAL: :frag (roll-in)
+- apps are stateless
+- databases are "eventually conconsistent"
+- there are different database types
+
+#+HTML: <br><br>
+#+ATTR_REVEAL: :frag (roll-in)
+[[https://12factor.net/]] 
+
+#+BEGIN_NOTES
+apps can be stateless b/c processing done on mobile devices where compute
+resources are, in fact, abundant.
+
+use-specific databases nosql, docment databases, key/value stores.  
+#+END_NOTES
+
+* it's all so different but...
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+BEGIN_HTML 
+<div style="font-size:xx-large;">
+#+END_HTML
+
+#+ATTR_REVEAL: :frag (appear)
+- rule 11
+  #+BEGIN_EXAMPLE
+     (11) Every old idea will be proposed again with a different name and
+          a different presentation, regardless of whether it works.
+  
+          (11a) (corollary). See rule 6a.Quote rule 11 rfc 1925
+  #+END_EXAMPLE
+- corollary 6a
+  #+BEGIN_EXAMPLE
+          (6a) (corollary). It is always possible to add another level of
+               indirection.
+  #+END_EXAMPLE
+
+#+ATTR_REVEAL: :frag (appear)
+[[https://tools.ietf.org/html/rfc1925]] (published 4/1/1996)
+
+#+BEGIN_HTML
+</div>
+#+END_HTML
+
+* practical steps for the IT practitioner
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+What should the IT practitioner start doing to prepare for a transition to Cloud
+IT? 
+
+** Get a Cloud Account
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left
+Get an AWS, Azure, or GCP account. They all have very low cost and/or free tiers
+of usage. Start with the basic infrastructure elements.
+
+#+ATTR_HTML: :align left
+When you get your first bill, start to look at how items are charge and begin to
+understand /why/ some things are charged more than others.
+
+#+BEGIN_NOTES
+taking snaps of block (EBS) volumes on AWS can overrun the free tier. Why?
+because that's more expensive storage.  So is that the best way to refresh a
+machine from an image?  or should you provisoin and rebuild in an automated
+fashion.  depends on use case and needs
+#+END_NOTES
+
+** Learn Linux
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left
+Cloud native and Linux go hand in hand.  it's time now to start focusing your
+attention on Linux skills.  
+
+** Learn git.
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left
+essential skills today for the practitioner.  Learn how git workflows and how to
+collaborate with others. Understant the value of cheap branching and
+simultaneous work with multiple teammates.
+
+#+ATTR_HTML: :align left
+There are numerous web based resources.  Reach out to me and I'll point you to some.
+
+** Learn automation tools
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+- Chef
+- Puppet
+- Ansible
+- Salt
+- Powershell
+- Python
+  
+** Learn automation tools
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+[[https://imgs.xkcd.com/comics/the_general_problem.png]] 
+
+#+ATTR_REVEAL: :frag (appear)
+The investment may take longer than brute force initially but you're playing a
+long game
+
+
+** Get out of your comfort zone
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left
+If you feel out of depth and this is hard, you're (probably) doing it right.
+Make the time investment
+
+* What should an IT leader do?
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+What steps can an IT leader take to prepare for Cloud IT
+
+** Talk to the business
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left
+Get IT and business leaderstalking. Understand what they want out if it and how they
+use it. If they use cloud find out what for and why. 
+
+#+ATTR_HTML: :align left
+If the answer is that IT can't respond to needs fast enough so they are going
+around IT, that's an important signal.
+
+** Find peers
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left
+Get out into the community. Find peer customers. Find trusted advisors(like asg)
+to extend staff and introduce new modes of operating
+
+** Find trusted advisors
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+#+ATTR_HTML: :align left
+
+Talk to your technology partners. Ask them probing questions. What are they
+asking you?  How can they help you make start this journey
+
+*** Themes to listen for:
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+- faster 
+- automated 
+- simplified ops 
+- self provisioning
+- visibility 
+- multi tenant 
+
+* ASG can help
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+#+ATTR_HTML: :align left
+
+App map to start journey. Even for o365 migrationn. (Backup matters security matters. Ms
+doesn't necessarily meet all your corporate objectives)
+
+put app map slides here

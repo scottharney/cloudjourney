@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Starting your IT organization's journey to Cloud IT</title>
+<meta name="author" content="(Scott Harney)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/blood.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<section id="slide-orgheadline1" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline1">Starting your IT organization's journey to Cloud IT</h2>
+<p>
+Scott Harney &lt;sharney@virtual.com&gt;
+</p>
+
+<p>
+10/25/2016
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline5" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline5">Intro</h2>
+<aside class="notes">
+<p>
+Also opening questions. Who is using public cloud today? Who has ms azure
+credits? Are you using them? Who has an initiative to move to a public private
+or hybrid cloud model? Open stack anyone?
+</p>
+
+<p>
+Do I do a bio slide here? and a who is ASG slide?
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline2" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline2">Who am I?</h3>
+
+<div class="figure">
+<p><img src="https://cdn-images-1.medium.com/max/600/1*snTXFElFuQLSFDnvZKJ6IA.png" alt="1*snTXFElFuQLSFDnvZKJ6IA.png" />
+</p>
+</div>
+
+</section>
+<section id="slide-orgheadline3" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline3">Who am I?</h3>
+<ul>
+<li class="fragment appear">Consulting Engineer for ASG
+<ul>
+<li>provide pre-sales support</li>
+<li>also post-sales delivery PS and consulting</li>
+
+</ul></li>
+<li class="fragment appear">previous practitioner experience in customer roles
+<ul>
+<li>network engineer</li>
+<li>unix/linux engineer</li>
+<li>storage and backup</li>
+
+</ul></li>
+<li class="fragment appear">live and work exclusively in LA</li>
+
+</ul>
+
+</section>
+<section id="slide-orgheadline4" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline4">Who Is ASG?</h3>
+<ul>
+<li>Leading National systems integrator since 1981</li>
+<li>headquarters in Denver, CO. has maintained a prescence in LA throughout
+company history</li>
+<li>Provides Consulting services supporting the business of IT</li>
+
+</ul>
+
+<p>
+<a href="http://www.asgconsultingservices.com/">http://www.asgconsultingservices.com/</a>
+</p>
+
+<p>
+<a href="https://www.virtual.com/">https://www.virtual.com/</a>
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline6" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline6">how ASG views IT</h2>
+
+<div class="figure">
+<p><img src="./5points.png" alt="5points.png" align="left" width="40%" height="40%" />
+</p>
+</div>
+
+<br><br><br><br>
+<p align="right">
+IT Transformation is not just about technology
+</p>
+<p class="fragment appear">
+It's always about the business
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline8" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline8">But How?</h2>
+<p>
+What ways do IT functions support the business
+</p>
+
+</section>
+<section id="slide-orgheadline7" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline7">3 ways</h3>
+<ul>
+<li class="fragment appear">help make $</li>
+<li class="fragment appear">save $</li>
+<li class="fragment appear">prevent loss of $</li>
+
+</ul>
+
+<p class="fragment (grow)" align="left">
+The problem is it spends 90% of its time on the latter two bullets. Traditional
+IT is focused on safety and saving money on scarce IT resources
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline9" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline9">cloud IT is about going faster</h2>
+<ul>
+<li class="fragment appear">faster is a competitive advantage for many business</li>
+<li class="fragment appear">ability to pivot</li>
+<li class="fragment appear">flexibility to experiment</li>
+<li class="fragment appear">BUs can buy what they need and use immediately</li>
+<li class="fragment appear">still can be just as safe if not more so</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline10" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline10">cloud is not a technology</h2>
+<p align="left">
+Well, not entirely anyway. It's also very much about people and process. It is a
+different consumption model for IT resources. It is much more aligned with
+applications than traditional IT which may not have deep awareness of business
+apps running on infrastructure 
+</p>
+
+<aside class="notes">
+<p>
+As an infrastructure admin I often only knew apps by their names with little
+understanding of their function, use or role within the business.
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline11" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline11">cloud economics are different</h2>
+<ul>
+<li class="fragment appear">rent vs buy for public</li>
+<li class="fragment appear">abundant resources vs limited</li>
+<li class="fragment appear">does not reward traditional it app architectures</li>
+<li class="fragment appear">can be hard/pricey to move data out of cloud or across vendors</li>
+
+</ul>
+
+
+<aside class="notes">
+<p>
+you are probably not going to save $ vs Colo for traditional it)
+</p>
+
+<p>
+lesson : it's your data. It really matters. Should I archive to the azure or
+glacier because it's cheap or "free"? Answer : maybe&#x2026;
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline12" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline12">cloud app architectures are different</h2>
+<ul>
+<li class="fragment roll-in">apps are stateless</li>
+<li class="fragment roll-in">databases are "eventually conconsistent"</li>
+<li class="fragment roll-in">there are different database types</li>
+
+</ul>
+
+<br><br>
+<p class="fragment (roll-in)">
+<a href="https://12factor.net/" class="fragment (roll-in)">https://12factor.net/</a> 
+</p>
+
+<aside class="notes">
+<p>
+apps can be stateless b/c processing done on mobile devices where compute
+resources are, in fact, abundant.
+</p>
+
+<p>
+use-specific databases nosql, docment databases, key/value stores.  
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline13" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline13">it's all so different but&#x2026;</h2>
+<div style="font-size:xx-large;">
+
+<ul>
+<li class="fragment appear"><p>
+rule 11
+</p>
+<pre class="example">
+(11) Every old idea will be proposed again with a different name and
+     a different presentation, regardless of whether it works.
+
+     (11a) (corollary). See rule 6a.Quote rule 11 rfc 1925
+</pre></li>
+<li class="fragment appear"><p>
+corollary 6a
+</p>
+<pre class="example">
+(6a) (corollary). It is always possible to add another level of
+     indirection.
+</pre></li>
+
+</ul>
+
+<p class="fragment (appear)">
+<a href="https://tools.ietf.org/html/rfc1925" class="fragment (appear)">https://tools.ietf.org/html/rfc1925</a> (published 4/1/1996)
+</p>
+
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline20" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline20">practical steps for the IT practitioner</h2>
+<p>
+What should the IT practitioner start doing to prepare for a transition to Cloud
+IT? 
+</p>
+
+</section>
+<section id="slide-orgheadline14" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline14">Get a Cloud Account</h3>
+<p align="left">
+Get an AWS, Azure, or GCP account. They all have very low cost and/or free tiers
+of usage. Start with the basic infrastructure elements.
+</p>
+
+<p align="left">
+When you get your first bill, start to look at how items are charge and begin to
+understand <i>why</i> some things are charged more than others.
+</p>
+
+<aside class="notes">
+<p>
+taking snaps of block (EBS) volumes on AWS can overrun the free tier. Why?
+because that's more expensive storage.  So is that the best way to refresh a
+machine from an image?  or should you provisoin and rebuild in an automated
+fashion.  depends on use case and needs
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline15" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline15">Learn Linux</h3>
+<p align="left">
+Cloud native and Linux go hand in hand.  it's time now to start focusing your
+attention on Linux skills.  
+</p>
+
+</section>
+<section id="slide-orgheadline16" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline16">Learn git.</h3>
+<p align="left">
+essential skills today for the practitioner.  Learn how git workflows and how to
+collaborate with others. Understant the value of cheap branching and
+simultaneous work with multiple teammates.
+</p>
+
+<p align="left">
+There are numerous web based resources.  Reach out to me and I'll point you to some.
+</p>
+
+</section>
+<section id="slide-orgheadline17" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline17">Learn automation tools</h3>
+<ul>
+<li>Chef</li>
+<li>Puppet</li>
+<li>Ansible</li>
+<li>Salt</li>
+<li>Powershell</li>
+<li>Python</li>
+
+</ul>
+
+</section>
+<section id="slide-orgheadline18" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline18">Learn automation tools</h3>
+
+<div class="figure">
+<p><img src="https://imgs.xkcd.com/comics/the_general_problem.png" alt="the_general_problem.png" /> 
+</p>
+</div>
+
+<p class="fragment (appear)">
+The investment may take longer than brute force initially but you're playing a
+long game
+</p>
+
+
+</section>
+<section id="slide-orgheadline19" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline19">Get out of your comfort zone</h3>
+<p align="left">
+If you feel out of depth and this is hard, you're (probably) doing it right.
+Make the time investment
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline25" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline25">What should an IT leader do?</h2>
+<p>
+What steps can an IT leader take to prepare for Cloud IT
+</p>
+
+</section>
+<section id="slide-orgheadline21" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline21">Talk to the business</h3>
+<p align="left">
+Get IT and business leaderstalking. Understand what they want out if it and how they
+use it. If they use cloud find out what for and why. 
+</p>
+
+<p align="left">
+If the answer is that IT can't respond to needs fast enough so they are going
+around IT, that's an important signal.
+</p>
+
+</section>
+<section id="slide-orgheadline22" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline22">Find peers</h3>
+<p align="left">
+Get out into the community. Find peer customers. Find trusted advisors(like asg)
+to extend staff and introduce new modes of operating
+</p>
+
+</section>
+<section id="slide-orgheadline24" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h3 id="orgheadline24">Find trusted advisors</h3>
+<p>
+Talk to your technology partners. Ask them probing questions. What are they
+asking you?  How can they help you make start this journey
+</p>
+
+</section>
+<section id="slide-orgheadline23" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h4 id="orgheadline23">Themes to listen for:</h4>
+<ul>
+<li>faster</li>
+<li>automated</li>
+<li>simplified ops</li>
+<li>self provisioning</li>
+<li>visibility</li>
+<li>multi tenant</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline26" data-background="./asg_slide_bg.png" data-background-transition="slide">
+<h2 id="orgheadline26">ASG can help</h2>
+<p>
+App map to start journey. Even for o365 migrationn. (Backup matters security matters. Ms
+doesn't necessarily meet all your corporate objectives)
+</p>
+
+<p>
+put app map slides here
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+maxScale: 10.00,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

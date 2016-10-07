@@ -211,6 +211,21 @@ use-specific databases nosql, docment databases, key/value stores.
 </div>
 #+END_HTML
 
+** Don't fear the cloud
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_HTML: :align left
+The technology world is not leaving you behind.  There is a very high rate of
+change and some of these "new" technologies may or may not become relevant to
+your career and your business. 
+
+#+ATTR_HTML: :align left
+So you should be running towards what I'm describing as Cloud IT technologies
+and methods and getting familiar with them now. 
+  
 * practical steps for the IT practitioner
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
@@ -275,9 +290,16 @@ There are numerous web based resources.  Reach out to me and I'll point you to s
 - Puppet
 - Ansible
 - Salt
-- Powershell
-- Python
-  
+
+#+BEGIN_NOTES
+These are all examples of declarative syntax based systems. This is a bit
+different than the imperative approach of typical scripting.  the later is
+valuable and can get you some time back but it's super specific.  it's the
+difference between making a sandwatch and ordering one be made at the drive
+through (API call).  this is a fundamental concept in cloud IT
+verbally mention powershell and python
+#+END_NOTES
+
 ** Learn automation tools
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
@@ -339,6 +361,7 @@ to extend staff and introduce new modes of operating
 :END:
 #+ATTR_HTML: :align left
 
+#+ATTR_HTML: :align left
 Talk to your technology partners. Ask them probing questions. What are they
 asking you?  How can they help you make start this journey
 

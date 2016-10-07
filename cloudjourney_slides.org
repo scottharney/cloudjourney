@@ -382,9 +382,46 @@ asking you?  How can they help you make start this journey
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
+
+#+ATTR_HTML: :align left
+With our Application Mapping Service and Cloud Roadmap Service
+
+** 
+:PROPERTIES: 
+:reveal_background: ./ASG-AppMap-slide1.png
+:reveal_background_size: 80%
+:reveal_background_trans: slide
+:END:
+
+** 
+:PROPERTIES: 
+:reveal_background: ./ASG-AppMap-slide2.png
+:reveal_background_size: 80%
+:reveal_background_trans: slide
+:END:
+
+** 
+:PROPERTIES: 
+:reveal_background: ./ASG-AppMap-slide3.png
+:reveal_background_size: 80%
+:reveal_background_trans: slide
+:END:
+
+* Tintri slides
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
 #+ATTR_HTML: :align left
 
-App map to start journey. Even for o365 migrationn. (Backup matters security matters. Ms
-doesn't necessarily meet all your corporate objectives)
+tintri offering lines up with these principles and has "cloud readiness" slides
+within their set. pull out and highlight those slides and how key value meshes
+with message
 
-put app map slides here
+* Thank you
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+Questions?

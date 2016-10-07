@@ -407,16 +407,69 @@ With our Application Mapping Service and Cloud Roadmap Service
 :reveal_background_trans: slide
 :END:
 
-* Tintri slides
+* ASG and Tintri
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
 #+ATTR_HTML: :align left
 
-tintri offering lines up with these principles and has "cloud readiness" slides
-within their set. pull out and highlight those slides and how key value meshes
-with message
+ASG partners with Tintri. Tintri's VM-aware storage is an example of a product
+that provides many of the attributes to ready enterprise customers to being
+moving to cloud-like IT.  
+
+How?
+
+** 
+:PROPERTIES: 
+:reveal_background: white
+:reveal_background: ./tintri_slide1.png
+:reveal_background_trans: slide
+:END:
+
+** 
+:PROPERTIES: 
+:reveal_background: white
+:reveal_background: ./tintri_slide2.png
+:reveal_background_trans: slide
+:END:
+
+** 
+:PROPERTIES: 
+:reveal_background: white
+:reveal_background: ./tintri_slide3.png
+:reveal_background_trans: slide
+:END:
+
+** 
+:PROPERTIES: 
+:reveal_background: white
+:reveal_background: ./tintri_slide4.png
+:reveal_background_trans: slide
+:END:
+
+** 
+:PROPERTIES: 
+:reveal_background: white
+:reveal_background: ./tintri_slide5.png
+:reveal_background_trans: slide
+:END:
+
+** 
+:PROPERTIES: 
+:reveal_background: white
+:reveal_background: ./tintri_slide6.png
+:reveal_background_trans: slide
+:END:
+
+
+** 
+:PROPERTIES: 
+:reveal_background: white
+:reveal_background: ./tintri_slide7.png
+:reveal_background_trans: slide
+:END:
+
 
 * Thank you
 :PROPERTIES: 

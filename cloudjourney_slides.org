@@ -344,6 +344,29 @@ use it. If they use cloud find out what for and why.
 If the answer is that IT can't respond to needs fast enough so they are going
 around IT, that's an important signal.
 
+** Foster Innovation
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png
+:reveal_background_trans: slide
+:END:
+
+#+ATTR_REVEAL: :frag (appear)
++ Give your IT team room to learn and change
++ Encourage education
++ Recognize that processes may have to change
++ And incentives
++ Make better risk calculations
+
+#+BEGIN_NOTES
+people need space to work. Send them to educational events that aren't the same.
+Get them to report back to the team what they learned.  
+
+This is cultural change.  you can quash it or you can give it room to grow.  
+
+incentives may need realignment and you need to better understand what risks are
+worth taking.  Are you rewarding the status quo and minimal change via your policies?
+#+END_NOTES
+
 ** Find peers
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
@@ -388,24 +411,27 @@ With our Application Mapping Service and Cloud Roadmap Service
 
 ** 
 :PROPERTIES: 
-:reveal_background: ./ASG-AppMap-slide1.png
-:reveal_background_size: 80%
+:reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
 
-** 
-:PROPERTIES: 
-:reveal_background: ./ASG-AppMap-slide2.png
-:reveal_background_size: 80%
-:reveal_background_trans: slide
-:END:
+[[./ASG-AppMap-slide1.png]]
 
 ** 
 :PROPERTIES: 
-:reveal_background: ./ASG-AppMap-slide3.png
-:reveal_background_size: 80%
+:reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
+
+[[./ASG-AppMap-slide2.png]]
+
+** 
+:PROPERTIES: 
+:reveal_background: ./asg_slide_bg.png 
+:reveal_background_trans: slide
+:END:
+
+[[./ASG-AppMap-slide3.png]]
 
 * ASG and Tintri
 :PROPERTIES: 

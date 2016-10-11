@@ -15,6 +15,17 @@ Scott Harney <sharney@virtual.com>
 
 10/25/2016
 
+
+#+BEGIN_HTML 
+<div style="font-size:large; text-align:left;">
+#+END_HTML
+Twitter: [[https://twitter.com/sharney][@sharney]]
+
+Linkedin: https://www.linkedin.com/in/scottharney
+#+BEGIN_HTML 
+</div>
+#+END_HTML
+ 
 * Intro
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
@@ -46,9 +57,9 @@ public private or hybrid cloud model? Open stack anyone?
   - Provide pre-sales support
   - Also post-sales delivery PS and consulting
 - Previous practitioner experience in customer roles
-  - Network engineer
-  - Unix/linux engineer
   - Storage and backup
+  - Unix/linux engineer
+  - Network engineer
 - Live and work exclusively in LA
 
 ** Who is ASG?
@@ -96,9 +107,9 @@ What ways do IT functions support the business
 :END:
 
 #+ATTR_REVEAL: :frag (appear)
-- help make $
-- save $
-- prevent loss of $
+- Help make $
+- Save $
+- Prevent loss of $
   
 #+ATTR_HTML: :align left
 #+ATTR_REVEAL: :frag (grow)
@@ -113,13 +124,13 @@ IT is focused on safety and saving money on scarce IT resources
 
 
 #+ATTR_REVEAL: :frag (appear)
-- faster is a competitive advantage for many business 
-- ability to pivot
-- flexibility to experiment
+- Faster is a competitive advantage for many business 
+- Ability to pivot
+- Flexibility to experiment
 - BUs can buy what they need and use immediately  
-- still can be just as safe if not more so 
+- Still can be just as safe if not more so 
 
-* Cloud is Not a technology 
+* Cloud is /Not/ a technology 
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -143,10 +154,10 @@ understanding of their function, use or role within the business.
 :END:
 
 #+ATTR_REVEAL: :frag (appear)
-- rent vs buy for public 
-- abundant resources vs limited 
-- does not reward traditional it app architectures
-- can be hard/pricey to move data out of cloud or across vendors 
+- Rent vs buy for public 
+- Abundant resources vs limited 
+- Does not reward traditional it app architectures
+- Can be hard/pricey to move data out of cloud or across vendors 
 
   
 #+BEGIN_NOTES
@@ -163,9 +174,10 @@ glacier because it's cheap or "free"? Answer : maybe...
 :END:
 
 #+ATTR_REVEAL: :frag (roll-in)
-- apps are stateless
-- databases are "eventually conconsistent"
-- there are different database types
+- Apps are stateless
+- Distributed computing model 
+- Databases are "eventually consistent"
+- There are different database types
 
 #+HTML: <br><br>
 #+ATTR_REVEAL: :frag (roll-in)
@@ -189,14 +201,14 @@ use-specific databases nosql, docment databases, key/value stores.
 #+END_HTML
 
 #+ATTR_REVEAL: :frag (appear)
-- rule 11
+- Rule 11
   #+BEGIN_EXAMPLE
      (11) Every old idea will be proposed again with a different name and
           a different presentation, regardless of whether it works.
   
           (11a) (corollary). See rule 6a.Quote rule 11 rfc 1925
   #+END_EXAMPLE
-- corollary 6a
+- Corollary 6a
   #+BEGIN_EXAMPLE
           (6a) (corollary). It is always possible to add another level of
                indirection.
@@ -216,13 +228,18 @@ use-specific databases nosql, docment databases, key/value stores.
 :END:
 
 #+ATTR_HTML: :align left
-The technology world is not leaving you behind.  There is a very high rate of
+The technology world is *not* leaving you behind.  There is a very high rate of
 change and some of these "new" technologies may or may not become relevant to
 your career and your business. 
 
 #+ATTR_HTML: :align left
 So you should be running towards what I'm describing as Cloud IT technologies
 and methods and getting familiar with them now. 
+
+#+BEGIN_NOTES
+This is the main point of the talk. personal experience w/ fear, did IT move
+past while stuck in a "legacy" world.  
+#+end_notes
   
 * Practical Steps For the IT Practitioner
 :PROPERTIES: 
@@ -253,7 +270,7 @@ because that's more expensive storage.  So is that the best way to refresh a
 machine from an image?  or should you provisoin and rebuild in an automated
 fashion.  depends on use case and needs
 #+END_NOTES
-
+ 
 ** Learn Linux
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
@@ -264,15 +281,15 @@ fashion.  depends on use case and needs
 Cloud native and Linux go hand in hand.  it's time now to start focusing your
 attention on Linux skills.  
 
-** Learn git.
+** Learn ~git~
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
 
 #+ATTR_HTML: :align left
-essential skills today for the practitioner.  Learn how git workflows and how to
-collaborate with others. Understant the value of cheap branching and
+essential skills today for the practitioner. Learn how ~git~ workflows and how
+to collaborate with others. Understant the value of cheap branching and
 simultaneous work with multiple teammates.
 
 #+ATTR_HTML: :align left
@@ -319,6 +336,10 @@ verbally mention powershell and python
 #+ATTR_HTML: :align left
 If you feel out of depth and this is hard, you're (probably) doing it right.
 Make the time investment
+
+#+begin_notes
+Just like a workout, need to push through a little discomfort to get results
+#+end_notes
 
 * What should an IT Leader do?
 :PROPERTIES: 
@@ -386,17 +407,18 @@ to extend staff and introduce new modes of operating
 Talk to your technology partners. Ask them probing questions. What are they
 asking you?  How can they help you make start this journey
 
-*** Themes to listen for:
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
-- faster 
-- automated 
-- simplified ops 
-- self provisioning
-- visibility 
-- multi tenant 
+
+Themes to listen for:
+- Faster 
+- Automated 
+- Simplified ops 
+- Self provisioning
+- Visibility 
+- Multi-tenant 
 
 * ASG Can Help
 :PROPERTIES: 

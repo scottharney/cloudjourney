@@ -6,7 +6,7 @@
 #+REVEAL_THEME: blood
 #+REVEAL_MAX_SCALE: 10
 
-* Starting your IT organization's journey to Cloud IT
+* Starting Your IT Organization's journey to Cloud IT
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -22,11 +22,9 @@ Scott Harney <sharney@virtual.com>
 :END:
 
 #+BEGIN_NOTES
-Also opening questions. Who is using public cloud today? Who has ms azure
-credits? Are you using them? Who has an initiative to move to a public private
-or hybrid cloud model? Open stack anyone?
-
-Do I do a bio slide here? and a who is ASG slide?
+Opening questions. practictioners and leaders ? Who is using public cloud today?
+Who has ms azure credits? Are you using them? Who has an initiative to move to a
+public private or hybrid cloud model? Open stack anyone?
 #+END_NOTES
 
 ** Who am I?
@@ -45,22 +43,22 @@ Do I do a bio slide here? and a who is ASG slide?
  
 #+ATTR_REVEAL: :frag (appear)
 - Consulting Engineer for ASG
-  - provide pre-sales support
-  - also post-sales delivery PS and consulting
-- previous practitioner experience in customer roles
-  - network engineer
-  - unix/linux engineer
-  - storage and backup
-- live and work exclusively in LA
+  - Provide pre-sales support
+  - Also post-sales delivery PS and consulting
+- Previous practitioner experience in customer roles
+  - Network engineer
+  - Unix/linux engineer
+  - Storage and backup
+- Live and work exclusively in LA
 
-** Who Is ASG?
+** Who is ASG?
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
 
 - Leading National systems integrator since 1981
-- headquarters in Denver, CO. has maintained a prescence in LA throughout
+- Headquarters in Denver, CO. has maintained a prescence in LA throughout
   company history
 - Provides Consulting services supporting the business of IT
 
@@ -68,7 +66,7 @@ Do I do a bio slide here? and a who is ASG slide?
  
 [[https://www.virtual.com]]
 
-* how ASG views IT 
+* How ASG Views IT 
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -107,7 +105,7 @@ What ways do IT functions support the business
 The problem is it spends 90% of its time on the latter two bullets. Traditional
 IT is focused on safety and saving money on scarce IT resources
 
-* cloud IT is about going faster 
+* Cloud IT is About Going Faster 
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -121,7 +119,7 @@ IT is focused on safety and saving money on scarce IT resources
 - BUs can buy what they need and use immediately  
 - still can be just as safe if not more so 
 
-* cloud is not a technology 
+* Cloud is Not a technology 
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -138,7 +136,7 @@ As an infrastructure admin I often only knew apps by their names with little
 understanding of their function, use or role within the business.
 #+END_NOTES
 
-* cloud economics are different
+* Cloud Economics are Different
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -158,7 +156,7 @@ lesson : it's your data. It really matters. Should I archive to the azure or
 glacier because it's cheap or "free"? Answer : maybe...
 #+END_NOTES
 
-* cloud app architectures are different 
+* Cloud App Architectures are Different 
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -180,7 +178,7 @@ resources are, in fact, abundant.
 use-specific databases nosql, docment databases, key/value stores.  
 #+END_NOTES
 
-* it's all so different but...
+* It's All So Different, But...
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -226,7 +224,7 @@ your career and your business.
 So you should be running towards what I'm describing as Cloud IT technologies
 and methods and getting familiar with them now. 
   
-* practical steps for the IT practitioner
+* Practical Steps For the IT Practitioner
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -280,7 +278,7 @@ simultaneous work with multiple teammates.
 #+ATTR_HTML: :align left
 There are numerous web based resources.  Reach out to me and I'll point you to some.
 
-** Learn automation tools
+** Learn Automation Tools
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -291,7 +289,7 @@ There are numerous web based resources.  Reach out to me and I'll point you to s
 The investment may take longer than brute force initially but you're playing a
 long game
 
-** Learn automation tools
+** Learn Automation Tools
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -312,7 +310,7 @@ verbally mention powershell and python
 #+END_NOTES
 
 
-** Get out of your comfort zone
+** Get Out of Your Comfort Zone
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -322,7 +320,7 @@ verbally mention powershell and python
 If you feel out of depth and this is hard, you're (probably) doing it right.
 Make the time investment
 
-* What should an IT leader do?
+* What should an IT Leader do?
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -330,7 +328,7 @@ Make the time investment
 
 What steps can an IT leader take to prepare for Cloud IT
 
-** Talk to the business
+** Talk to the Business
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -367,7 +365,7 @@ incentives may need realignment and you need to better understand what risks are
 worth taking.  Are you rewarding the status quo and minimal change via your policies?
 #+END_NOTES
 
-** Find peers
+** Find Peers
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -377,7 +375,7 @@ worth taking.  Are you rewarding the status quo and minimal change via your poli
 Get out into the community. Find peer customers. Find trusted advisors(like asg)
 to extend staff and introduce new modes of operating
 
-** Find trusted advisors
+** Find Trusted Advisors
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -400,7 +398,7 @@ asking you?  How can they help you make start this journey
 - visibility 
 - multi tenant 
 
-* ASG can help
+* ASG Can Help
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide

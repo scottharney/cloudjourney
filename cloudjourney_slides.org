@@ -26,6 +26,7 @@ Linkedin: https://www.linkedin.com/in/scottharney
 </div>
 #+END_HTML
  
+
 * Intro
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png

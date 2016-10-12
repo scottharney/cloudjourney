@@ -131,7 +131,7 @@ IT is focused on safety and saving money on scarce IT resources
 - BUs can buy what they need and use immediately  
 - Still can be just as safe if not more so 
 
-* Cloud is /Not/ a technology 
+* Cloud is /Not/ a technology
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
@@ -402,18 +402,18 @@ to extend staff and introduce new modes of operating
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
-#+ATTR_HTML: :align left
 
 #+ATTR_HTML: :align left
 Talk to your technology partners. Ask them probing questions. What are they
 asking you?  How can they help you make start this journey
 
+** Themes to listen for
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
 
-Themes to listen for:
+#+ATTR_REVEAL: :frag (appear)
 - Faster 
 - Automated 
 - Simplified ops 

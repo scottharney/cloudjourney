@@ -282,15 +282,15 @@ fashion.  depends on use case and needs
 Cloud native and Linux go hand in hand.  it's time now to start focusing your
 attention on Linux skills.  
 
-** Learn ~git~
+** Learn git
 :PROPERTIES: 
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
 
 #+ATTR_HTML: :align left
-essential skills today for the practitioner. Learn how ~git~ workflows and how
-to collaborate with others. Understant the value of cheap branching and
+Essential skills today for the practitioner. Learn git workflows and how
+to collaborate with others. Understand the value of cheap branching and
 simultaneous work with multiple teammates.
 
 #+ATTR_HTML: :align left

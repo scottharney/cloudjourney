@@ -214,6 +214,10 @@ use-specific databases nosql, docment databases, key/value stores.
           (6a) (corollary). It is always possible to add another level of
                indirection.
   #+END_EXAMPLE
+               
+#+begin_notes
+eg eventually consistent distributed db == DNS
+#+end_notes
 
 #+ATTR_REVEAL: :frag (appear)
 [[https://tools.ietf.org/html/rfc1925]] (published 4/1/1996)

@@ -215,7 +215,7 @@ use-specific databases nosql, docment databases, key/value stores.
                indirection.
   #+END_EXAMPLE
                
-#+begin_notes
+#+BEGIN_NOTES 
 eg eventually consistent distributed db == DNS
 #+end_notes
 

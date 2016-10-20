@@ -361,7 +361,7 @@ What steps can an IT leader take to prepare for Cloud IT
 :END:
 
 #+ATTR_HTML: :align left
-Get IT and business leaderstalking. Understand what they want out if it and how they
+Get IT and business leader stalking. Understand what they want out if it and how they
 use it. If they use cloud find out what for and why. 
 
 #+ATTR_HTML: :align left

@@ -70,7 +70,7 @@ public private or hybrid cloud model? Open stack anyone?
 :END:
 
 - Leading National systems integrator since 1981
-- Headquarters in Denver, CO. has maintained a prescence in LA throughout
+- Headquarters in Denver, CO. has maintained a presence in LA throughout
   company history
 - Provides Consulting services supporting the business of IT
 
@@ -266,7 +266,7 @@ Get an AWS, Azure, or GCP account. They all have very low cost and/or free tiers
 of usage. Start with the basic infrastructure elements.
 
 #+ATTR_HTML: :align left
-When you get your first bill, start to look at how items are charge and begin to
+When you get your first bill, start to look at how items are charged and begin to
 understand /why/ some things are charged more than others.
 
 #+BEGIN_NOTES
@@ -283,7 +283,7 @@ fashion.  depends on use case and needs
 :END:
 
 #+ATTR_HTML: :align left
-Cloud native and Linux go hand in hand.  it's time now to start focusing your
+Cloud native and Linux go hand in hand.  It's time now to start focusing your
 attention on Linux skills.  
 
 ** Learn git
@@ -293,7 +293,7 @@ attention on Linux skills.
 :END:
 
 #+ATTR_HTML: :align left
-Essential skills today for the practitioner. Learn git workflows and how
+Essential skill today for the practitioner. Learn git workflows and how
 to collaborate with others. Understand the value of cheap branching and
 simultaneous work with multiple teammates.
 
@@ -342,7 +342,7 @@ verbally mention powershell and python
 If you feel out of depth and this is hard, you're (probably) doing it right.
 Make the time investment
 
-#+begin_notes
+#+BEGIN_NOTES
 Just like a workout, need to push through a little discomfort to get results
 #+end_notes
 
@@ -361,8 +361,8 @@ What steps can an IT leader take to prepare for Cloud IT
 :END:
 
 #+ATTR_HTML: :align left
-Get IT and business leader stalking. Understand what they want out if it and how they
-use it. If they use cloud find out what for and why. 
+Get IT and business leaders talking. Understand what they want out if IT and how they
+use IT. If they use cloud find out what for and why. 
 
 #+ATTR_HTML: :align left
 If the answer is that IT can't respond to needs fast enough so they are going
@@ -398,8 +398,8 @@ worth taking.  Are you rewarding the status quo and minimal change via your poli
 :END:
 
 #+ATTR_HTML: :align left
-Get out into the community. Find peer customers. Find trusted advisors(like asg)
-to extend staff and introduce new modes of operating
+Get out into the community. Find peer customers. Find out if they are embracing
+new modes of operating and how their experience is going.
 
 ** Find Trusted Advisors
 :PROPERTIES: 
@@ -409,7 +409,7 @@ to extend staff and introduce new modes of operating
 
 #+ATTR_HTML: :align left
 Talk to your technology partners. Ask them probing questions. What are they
-asking you?  How can they help you make start this journey
+asking you?  How can they help you start this journey
 
 ** Themes to listen for
 :PROPERTIES: 
@@ -432,7 +432,7 @@ asking you?  How can they help you make start this journey
 :END:
 
 #+ATTR_HTML: :align left
-With our Application Mapping Service and Cloud Roadmap Service
+Examples include our Application Mapping Service and Cloud Roadmap Service
 
 ** 
 :PROPERTIES: 
@@ -470,56 +470,6 @@ that provides many of the attributes to ready enterprise customers to being
 moving to cloud-like IT.  
 
 How?
-
-** 
-:PROPERTIES: 
-:reveal_background: white
-:reveal_background: ./tintri_slide1.png
-:reveal_background_trans: slide
-:END:
-
-** 
-:PROPERTIES: 
-:reveal_background: white
-:reveal_background: ./tintri_slide2.png
-:reveal_background_trans: slide
-:END:
-
-** 
-:PROPERTIES: 
-:reveal_background: white
-:reveal_background: ./tintri_slide3.png
-:reveal_background_trans: slide
-:END:
-
-** 
-:PROPERTIES: 
-:reveal_background: white
-:reveal_background: ./tintri_slide4.png
-:reveal_background_trans: slide
-:END:
-
-** 
-:PROPERTIES: 
-:reveal_background: white
-:reveal_background: ./tintri_slide5.png
-:reveal_background_trans: slide
-:END:
-
-** 
-:PROPERTIES: 
-:reveal_background: white
-:reveal_background: ./tintri_slide6.png
-:reveal_background_trans: slide
-:END:
-
-
-** 
-:PROPERTIES: 
-:reveal_background: white
-:reveal_background: ./tintri_slide7.png
-:reveal_background_trans: slide
-:END:
 
 
 * Thank you

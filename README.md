@@ -2,7 +2,7 @@
 
 This is a presentation I prepared for
 the [Louisiana IT Symposium](http://www.efmevents.com/2016/louisiana/) on
-October 5, 2016. 
+October 25, 2016. 
 
 ```
 .

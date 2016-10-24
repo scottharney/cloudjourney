@@ -479,3 +479,8 @@ How?
 :END:
 
 Questions?
+
++ https://www.virtual.com
++ https://www.tintri.com
++ presentation: https://github.com/scottharney/cloudjourney
++ personal website https://www.scottharney.com

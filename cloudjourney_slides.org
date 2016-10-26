@@ -45,7 +45,7 @@ public private or hybrid cloud model? Open stack anyone?
 :reveal_background_trans: slide
 :END:
 
-[[https://cdn-images-1.medium.com/max/600/1*snTXFElFuQLSFDnvZKJ6IA.png]]
+[[./1-snTXFElFuQLSFDnvZKJ6IA.png]]
 
 ** Who am I?
 :PROPERTIES: 
@@ -305,7 +305,7 @@ There are numerous web based resources.  Reach out to me and I'll point you to s
 :reveal_background: ./asg_slide_bg.png
 :reveal_background_trans: slide
 :END:
-[[https://imgs.xkcd.com/comics/the_general_problem.png]] 
+[[./the_general_problem.png]] 
 
 #+ATTR_REVEAL: :frag (appear)
 The investment may take longer than brute force initially but you're playing a
